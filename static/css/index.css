@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 150px;
+    background-image: url(https://selftaught.blog/wp-content/uploads/2019/02/wordpress-3288417_1280-e1550774413446.png);
+    background-position: center;
+    background-size: cover;
+}
+
+header .title {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 35px;
+    background-color: #33333355;
+}
+
+form {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.languages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.language {
+    background: #2980b9;
+    width: 400px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}

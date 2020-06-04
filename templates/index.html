@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programming Languages</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+</head>
+<body>
+    <header>
+        <div class="title">Linguagens de Programação</div>
+    </header>
+    <form action="/add" method="post">
+        <input type="text" placeholder="Nome da Linguagem" name="language">
+        <button type="submit">Adicionar</button>
+    </form>
+    <div class="languages">
+        {% for language in languages %}
+            <div class="language">
+                <span>{{ language }}</span>
+            </div>
+        {% endfor %}    
+    </div>
+</body>
+</html>
