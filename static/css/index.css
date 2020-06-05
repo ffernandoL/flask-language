@@ -42,3 +42,11 @@ form {
     border-radius: 5px;
     margin-top: 10px;
 }
+
+.apagar {
+    float:right;
+    background: #2980b9;
+    color: white;
+    border-color: #2980b9;
+    cursor: pointer;
+}

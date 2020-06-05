@@ -18,6 +18,9 @@
         {% for language in languages %}
             <div class="language">
                 <span>{{ language }}</span>
+                <a href="/delete/{{loop.index0}}">
+                    <button class="apagar" type="submit">X</button>
+                </a>
             </div>
         {% endfor %}    
     </div>
